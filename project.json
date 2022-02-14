@@ -11,7 +11,7 @@
   "entitiesStores": [],
   "schemaVersion": "4.0",
   "studioVersion": "21.10.5.0",
-  "projectVersion": "1.0.98199214",
+  "projectVersion": "1.0.98538836",
   "runtimeOptions": {
     "autoDispose": false,
     "netFrameworkLazyLoading": false,
@@ -42,7 +42,22 @@
       {
         "editingStatus": "Publishable",
         "testCaseId": "591bb611-b30d-498a-aabf-5939ce6ce0d5",
-        "fileName": "TestCase1-LoanSuccessful.xaml"
+        "fileName": "TestCase1-LoanSuccessful_7.xaml"
+      },
+      {
+        "editingStatus": "Publishable",
+        "testCaseId": "3b944ec2-a61e-49cf-8117-70159c6108de",
+        "fileName": "TestCase2-LoanFail_noEmail.xaml"
+      },
+      {
+        "editingStatus": "Publishable",
+        "testCaseId": "ab97a7b4-b8c5-44ea-b066-12d5208198fa",
+        "fileName": "TestCase3-LoanFail_agelimited.xaml"
+      },
+      {
+        "editingStatus": "Publishable",
+        "testCaseId": "935c1544-26b4-47cc-9fbf-14efe78e3e72",
+        "fileName": "TestCase4-LoanSuccessful_5.xaml"
       }
     ],
     "modernBehavior": true
