@@ -9,3 +9,6 @@
 - Saving test cases in Test Manager and automate the Project to run the tests each time it is needed
 - Creating Tests Set 
 - Measuring performance ( time , installation ..etc)
+
+## Succesfully able to add te cases in cloud and automating them using unattended robot 
+![uipath cloud](Uipath_cloud_TestCases.JPG)

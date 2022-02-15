@@ -11,7 +11,7 @@
   "entitiesStores": [],
   "schemaVersion": "4.0",
   "studioVersion": "21.10.5.0",
-  "projectVersion": "1.0.98538836",
+  "projectVersion": "1.0.98614777",
   "runtimeOptions": {
     "autoDispose": false,
     "netFrameworkLazyLoading": false,
@@ -47,7 +47,7 @@
       {
         "editingStatus": "Publishable",
         "testCaseId": "3b944ec2-a61e-49cf-8117-70159c6108de",
-        "fileName": "TestCase2-LoanFail_noEmail.xaml"
+        "fileName": "TestCase2-LoanFail_aboveLimit.xaml"
       },
       {
         "editingStatus": "Publishable",
