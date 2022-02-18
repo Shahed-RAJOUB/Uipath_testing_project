@@ -9,7 +9,7 @@
   <mva:VisualBasic.Settings>
     <x:Null />
   </mva:VisualBasic.Settings>
-  <sap:VirtualizedContainerService.HintSize>1114.4,1065.6</sap:VirtualizedContainerService.HintSize>
+  <sap:VirtualizedContainerService.HintSize>730.4,1065.6</sap:VirtualizedContainerService.HintSize>
   <sap2010:WorkflowViewState.IdRef>TestCase1_LoanSuccessful_1</sap2010:WorkflowViewState.IdRef>
   <TextExpression.NamespacesForImplementation>
     <scg:List x:TypeArguments="x:String" Capacity="34">
@@ -153,22 +153,28 @@
       </sap:WorkflowViewStateService.ViewState>
       <ui:InvokeWorkflowFile ArgumentsVariable="{x:Null}" ContinueOnError="{x:Null}" DisplayName="Invoke AddLoan workflow" sap:VirtualizedContainerService.HintSize="333.6,113.6" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_1" UnSafe="False" WorkflowFileName="AddLoan.xaml">
         <ui:InvokeWorkflowFile.Arguments>
-          <InArgument x:TypeArguments="x:String" x:Key="LoanEmail">[LoanEmail]</InArgument>
-          <InArgument x:TypeArguments="x:String" x:Key="LoanAmount">[LoanAmount]</InArgument>
-          <InArgument x:TypeArguments="x:String" x:Key="LoanTerm">[LoanTerm]</InArgument>
-          <InArgument x:TypeArguments="x:String" x:Key="LoanIncome">[LoanIncome]</InArgument>
-          <InArgument x:TypeArguments="x:String" x:Key="LoanAge">[LoanAmount]</InArgument>
+          <InArgument x:TypeArguments="x:String" x:Key="in_LoanEmail">
+            <mva:VisualBasicValue x:TypeArguments="x:String" ExpressionText="LoanEmail" />
+          </InArgument>
+          <InArgument x:TypeArguments="x:String" x:Key="in_LoanAmount">
+            <mva:VisualBasicValue x:TypeArguments="x:String" ExpressionText="LoanAmount" />
+          </InArgument>
+          <InArgument x:TypeArguments="x:String" x:Key="in_LoanTerm">
+            <mva:VisualBasicValue x:TypeArguments="x:String" ExpressionText="LoanTerm" />
+          </InArgument>
+          <InArgument x:TypeArguments="x:String" x:Key="in_LoanIncome">
+            <mva:VisualBasicValue x:TypeArguments="x:String" ExpressionText="LoanIncome" />
+          </InArgument>
+          <InArgument x:TypeArguments="x:String" x:Key="in_LoanAge">
+            <mva:VisualBasicValue x:TypeArguments="x:String" ExpressionText="LoanAge" />
+          </InArgument>
         </ui:InvokeWorkflowFile.Arguments>
       </ui:InvokeWorkflowFile>
     </Sequence>
     <Sequence DisplayName="... Then" sap:VirtualizedContainerService.HintSize="575.2,302.4" sap2010:WorkflowViewState.IdRef="Sequence_4">
       <Sequence.Variables>
         <Variable x:TypeArguments="x:String" Name="LoanPer" />
-        <Variable x:TypeArguments="x:String" Name="ExpectedLoan">
-          <Variable.Default>
-            <Literal x:TypeArguments="x:String">Sorry, at this time you have not been approved for a loan.</Literal>
-          </Variable.Default>
-        </Variable>
+        <Variable x:TypeArguments="x:String" Default="Sorry, at this time you have not been approved for a loan." Name="ExpectedLoan" />
       </Sequence.Variables>
       <sap:WorkflowViewStateService.ViewState>
         <scg:Dictionary x:TypeArguments="x:String, x:Object">

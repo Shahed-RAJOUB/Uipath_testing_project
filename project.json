@@ -11,7 +11,7 @@
   "entitiesStores": [],
   "schemaVersion": "4.0",
   "studioVersion": "21.10.5.0",
-  "projectVersion": "1.0.98614777",
+  "projectVersion": "1.0.98890764",
   "runtimeOptions": {
     "autoDispose": false,
     "netFrameworkLazyLoading": false,
@@ -58,6 +58,12 @@
         "editingStatus": "Publishable",
         "testCaseId": "935c1544-26b4-47cc-9fbf-14efe78e3e72",
         "fileName": "TestCase4-LoanSuccessful_5.xaml"
+      },
+      {
+        "editingStatus": "Publishable",
+        "testCaseId": "52eb9e90-43b7-4dd7-a259-ec1d683a1beb",
+        "dataVariationFilePath": ".variations\\Loan Quotes_Loan Quotes.json",
+        "fileName": "TestCases-createLoans-DataDriven.xaml"
       }
     ],
     "modernBehavior": true
